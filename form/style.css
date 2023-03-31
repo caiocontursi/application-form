@@ -1,0 +1,62 @@
+.titulo {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 0px;
+}
+
+div {
+    text-shadow: 4px 4px 4px black;
+}
+
+body {
+    background-color: #12263A;
+    text-align: center;
+}
+
+.espaçamento {
+    margin-top: 3.5%;
+}
+
+.telefone {
+    margin-top: 6%;
+}
+
+.area {
+    background-color: #12263A;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3.5%;
+    color: whitesmoke;
+    border: 0;
+    text-align: start;
+}
+
+#nascimento {
+    border-radius: 5px;
+}
+
+div { 
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    height: 50px;
+}
+
+button {
+    padding: 8px 300px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: royalblue;
+    border: royalblue;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.8s;
+    color: whitesmoke;
+    margin-top: 1%;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: royalblue;
+}
