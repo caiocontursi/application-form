@@ -22,6 +22,17 @@ body {
     margin-top: 6%;
 }
 
+input {
+    border-radius: 6px;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
+input:focus {
+    outline: none;
+}
+
 .area {
     background-color: #12263A;
     margin-left: 25%;

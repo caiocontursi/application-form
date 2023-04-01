@@ -20,14 +20,19 @@
 
                 <div>
                     <label for="cpf">CPF:</label> 
-                    <input name="cpf"
+                    <input name="cpf" required
                         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                         type = "number"
                         maxlength = "11">
                 </div>
                 <div>
                     <label for="email">E-MAIL:</label> 
-                    <input type="email" id="email" required>
+                    <input type="email" 
+                    id="email" 
+                    onblur="validarEmail()"
+                    onfocus="redefinirEmail()"
+                    required>
+                    <span id="error-email"></span>
                 </div>
                 
                 <div>
@@ -48,7 +53,7 @@
                 </div>
                 <div class="telefone">
                     <label for="telefone">TELEFONE:</label> 
-                    <input name="telefone"
+                    <input name="telefone" required
                         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                         type = "number"
                         maxlength = "11">
@@ -61,7 +66,7 @@
 
                 <div>
                     <label for="cep">CEP:</label>
-                    <input name="cep"
+                    <input name="cep" required
                         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                         type = "number"
                         maxlength = "8">
@@ -102,9 +107,7 @@
                     <label for="enviar"></label>
                     <button type="submit">Enviar</button?>
         </form>
-            <script  defer src="index.js"></script>
-
-    
+            <script type="index.javascript"></script>   
     </body>
         
 </html>
